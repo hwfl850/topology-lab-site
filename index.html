@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Keep this page out of search results. This tag is the mechanism that
+       works on GitHub Pages: a robots.txt inside a project folder is ignored,
+       and blocking crawlers would stop them from ever reading this tag. -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
+  <title>Topology Lab</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/lab.css?v=20261111" />
+</head>
+<body class="tl">
+
+<a class="skip-link" href="#tl-view">Skip to content</a>
+<header class="tl-top">
+  <a class="tl-brand" href="./" data-nav="home">
+    <span class="tl-brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="26" height="26"><circle cx="16" cy="16" r="4.2"/><circle cx="5" cy="6" r="2.6"/><circle cx="27" cy="6" r="2.6"/><circle cx="5" cy="26" r="2.6"/><circle cx="27" cy="26" r="2.6"/><path d="M13 13.4 7 7.8M19 13.4l6-5.6M13 18.6l-6 5.6M19 18.6l6 5.6"/></svg>
+    </span>
+    <span>Topology Lab<small>Network Design role play practice</small></span>
+  </a>
+  <nav class="tl-nav" aria-label="Lab sections">
+    <button type="button" data-nav="home">Role plays</button>
+    <button type="button" data-nav="guide">Field guide</button>
+    <button type="button" data-nav="quiz">Quiz</button>
+  </nav>
+  <div class="tl-rank" id="tl-rank" aria-live="polite"></div>
+</header>
+<main id="tl-view" tabindex="-1">
+  <noscript><p style="padding:2rem;text-align:center">Topology Lab needs JavaScript to run.</p></noscript>
+</main>
+<div class="tl-toast" id="tl-toast" role="status" aria-live="polite"></div>
+
+<script src="js/data.js?v=20261111"></script>
+<script src="js/engine.js?v=20261111"></script>
+<script src="js/app.js?v=20261111"></script>
+</body>
+</html>
